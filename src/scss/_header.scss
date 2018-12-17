@@ -16,6 +16,6 @@
 
   @supports (backdrop-filter: blur()) {
     backdrop-filter: blur(15px);
-    background-color: rgba($foreground, 0.9);
+    background-color: rgba($foreground, 0.85);
   }
 }

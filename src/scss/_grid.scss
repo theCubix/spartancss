@@ -15,7 +15,6 @@
 
 @include for-mobile() {
   .grid {
-    grid-gap: 1em;
 
     &.two-columns,
     &.three-columns,
