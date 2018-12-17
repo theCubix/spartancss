@@ -1,0 +1,49 @@
+//colours
+$brand-primary: #F6FB10;
+$brand-fainted: rgba($brand-primary, 0.5);
+$brand-darken: darken($brand-primary, 10);
+
+$black: #101010;
+$white: #ffffff;
+$off-white: #fafafa;
+
+$gray-darkest: rgba(0, 0, 0, 0.8);
+$gray-dark: rgba(0, 0, 0, 0.6);
+$gray-light: rgba(0, 0, 0, 0.3);
+$gray-lightest: rgba(0, 0, 0, 0.1);
+
+$background: $off-white;
+$foreground: $white;
+
+//effects
+$shadow: 0px 20px 30px rgba(0, 0, 0, 0.01), 0px 3px 4px rgba(0, 0, 0, 0.01);
+$shadow-strong: 0px 20px 30px rgba(0, 0, 0, 0.07), 0px 3px 4px rgba(0, 0, 0, 0.04);
+
+//typography
+$font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+$text-base-size: 16px;
+
+$extended-line-height: 1.618em;
+
+$title-1-size: 2.5em;
+$title-1-line-height: 0.85em;
+$title-2-size: 1.5em;
+$title-2-line-height: 0.9em;
+$title-3-size: 1.2em;
+$title-3-line-height: 1em;
+$title-4-size: 1em;
+$title-4-line-height: 1.2em;
+
+$title-margin: 0.5em 0 0.65em 0;
+
+//utilities
+$corner-radius: 3px;
+
+//card
+$card-padding: 3em;
+
+//breakpoints
+$sm: 768px !default;
+$md: 1024px !default;
+$lg: 1440px !default;

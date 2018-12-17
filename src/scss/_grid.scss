@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-gap: 3em;
+
+  &.two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &.three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &.four-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@include for-mobile() {
+  .grid {
+    grid-gap: 1em;
+
+    &.two-columns,
+    &.three-columns,
+    &.four-columns {
+      grid-template-columns: 1fr;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.section {
+  box-sizing: border-box;
+
+  &.is-fullheight {
+    height: 100vh;
+  }
+
+  &.is-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}

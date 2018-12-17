@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 840px;
+}
+
+@include for-mobile() {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

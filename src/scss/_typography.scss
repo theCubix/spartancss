@@ -1,0 +1,45 @@
+.text {
+  color: $gray-dark;
+  font-size: 1em;
+
+  &.small {
+    font-size: 0.9em;
+  }
+
+  .large {
+    font-size: 1.2em;
+  }
+
+  &.extended {
+    line-height: $extended-line-height;
+  }
+}
+
+.title {
+  color: $black;
+
+  &.has-margin {
+    margin: $title-margin;
+  }
+
+  &.is-1 {
+    font-size: $title-1-size;
+    line-height: $title-1-line-height;
+  }
+  &.is-2 {
+    font-size: $title-2-size;
+    line-height: $title-2-line-height;
+  }
+  &.is-3 {
+    font-size: $title-3-size;
+    line-height: $title-3-line-height;
+  }
+  &.is-4 {
+    font-size: $title-4-size;
+    line-height: $title-4-line-height;
+  }
+}
+
+.underlined {
+  background: linear-gradient(to bottom, transparent, transparent 66%, $brand-primary 66%, $brand-primary);
+}

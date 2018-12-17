@@ -1,0 +1,21 @@
+.header {
+  background-color: $foreground;
+  box-shadow: $shadow;
+  padding: 20px;
+  z-index: 777;
+
+  &-title {
+    font-size: 1rem;
+  }
+
+  &.is-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  @supports (backdrop-filter: blur()) {
+    backdrop-filter: blur(15px);
+    background-color: rgba($foreground, 0.9);
+  }
+}

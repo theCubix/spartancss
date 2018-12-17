@@ -1,0 +1,10 @@
+.card {
+  background-color: $foreground;
+  box-shadow: $shadow-strong;
+  @extend .is-rounded;
+
+  &-content {
+    box-sizing: border-box;
+    padding: $card-padding;
+  }
+}
