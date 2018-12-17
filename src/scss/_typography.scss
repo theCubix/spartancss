@@ -42,4 +42,5 @@
 
 .underlined {
   background: linear-gradient(to bottom, transparent, transparent 66%, $brand-primary 66%, $brand-primary);
+  display: inline;
 }
