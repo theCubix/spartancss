@@ -1,11 +1,37 @@
 .header {
   background-color: $foreground;
   box-shadow: $shadow;
+  display: flex;
+  justify-content: space-between;
   padding: 20px;
   z-index: 777;
 
   &-title {
     font-size: 1rem;
+  }
+
+  &-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    & li {
+      &:last-child a,
+      &:first-child a {
+        padding: 0;
+      }
+
+      & a {
+        margin: 0 10px;
+        text-decoration: none;
+        @extend .text;
+
+        &:hover {
+          background: linear-gradient(to bottom, transparent, transparent 66%, $brand-primary 66%, $brand-primary);
+        }
+      }
+    }
   }
 
   &.is-fixed {

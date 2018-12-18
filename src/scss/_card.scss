@@ -4,7 +4,6 @@
   @extend .is-rounded;
 
   &-content {
-    box-sizing: border-box;
     padding: $card-padding;
   }
 }
