@@ -20,6 +20,10 @@
 
   &.has-margin {
     margin: $title-margin;
+
+    &-large {
+      margin: $title-margin-large;
+    }
   }
 
   &.is-1 {
