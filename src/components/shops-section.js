@@ -5,6 +5,7 @@ import Card from './card'
 
 const shopsSection = () => html`
   <div class="container">
+    <h2 class="title is-2 has-margin-large">Static Data</h2>
     <div class="grid two-columns">
     ${shops.map((shop) => {
       return (
