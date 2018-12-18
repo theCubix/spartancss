@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: "JS Filter",
+      title: "SpartanCSS.io",
       template: "./src/index.html"
     })
   ],
