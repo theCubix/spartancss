@@ -1,15 +1,13 @@
 import { html, render } from 'lit-html'
+// import page from 'page'
 
-import Header from './components/header'
-import HeroSection from './components/hero-section'
-import ShopsSection from './components/shops-section'
+import IndexView from './views/index'
+import Layout from './components/layout'
 
 let app = () => html`
-  <main>
-    ${Header('SpartanCSS.io')}
-    ${HeroSection()}
-    ${ShopsSection()}
-  </main>
+  ${
+    Layout(IndexView())
+  }
 `
 
 render(app(), document.querySelector('#app'))
