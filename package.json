@@ -5,12 +5,13 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open --content-base dist/ --mode development",
+    "dev": "webpack-dev-server --open --mode development",
     "build": "webpack -p"
   },
   "author": "Timon Forrer",
   "license": "MIT",
   "dependencies": {
+    "@webcomponents/template": "^1.4.0",
     "lit-html": "^0.14.0",
     "normalize-scss": "^7.0.1",
     "page": "^1.11.3"

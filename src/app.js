@@ -1,5 +1,5 @@
 import { html, render } from 'lit-html'
-// import page from 'page'
+import "@webcomponents/template"
 
 import IndexView from './views/index'
 import Layout from './components/layout'

@@ -1,7 +1,19 @@
 .card {
   background-color: $foreground;
   box-shadow: $shadow-strong;
+  position: relative;
   @extend .is-rounded;
+
+  &.has-colour::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $brand-primary;
+  }
 
   &-content {
     padding: $card-padding;
