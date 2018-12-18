@@ -1,4 +1,5 @@
 import { html } from 'lit-html'
+import "@webcomponents/template"
 
 const card = (title, category, city) => html`
   <div class="card has-colour">

@@ -1,4 +1,5 @@
 import { html } from 'lit-html'
+import "@webcomponents/template"
 
 const heroSection = () => html`
   <section class="section is-fullheight is-center">

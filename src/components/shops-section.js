@@ -1,5 +1,6 @@
 import { html } from 'lit-html'
 import shops from '../data/shops.js'
+import "@webcomponents/template"
 
 import Card from './card'
 

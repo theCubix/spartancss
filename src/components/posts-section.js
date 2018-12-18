@@ -1,5 +1,6 @@
 import { html } from 'lit-html'
 import { until } from 'lit-html/directives/until'
+import "@webcomponents/template"
 
 let content = fetch('https://jsonplaceholder.typicode.com/posts')
 .then(function(response) {

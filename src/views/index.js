@@ -1,4 +1,5 @@
 import { html } from 'lit-html'
+import "@webcomponents/template"
 
 import HeroSection from '../components/hero-section'
 import ShopsSection from '../components/shops-section'

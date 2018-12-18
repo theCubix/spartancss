@@ -1,4 +1,5 @@
 import { html } from 'lit-html'
+import "@webcomponents/template"
 
 const Header = (title) => html`
 <header class="header is-fixed">
