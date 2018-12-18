@@ -12,7 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "lit-html": "^0.14.0",
-    "normalize-scss": "^7.0.1"
+    "normalize-scss": "^7.0.1",
+    "page": "^1.11.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
